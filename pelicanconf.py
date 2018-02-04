@@ -7,27 +7,27 @@ SITENAME = u'miaoyc'
 SITEURL = ''
 
 PATH = 'content'
-
 TIMEZONE = 'Asia/Shanghai'
-
 DEFAULT_LANG = u'zh'
-
 THEME = 'pelican-bootstrap3'
 
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
-
-PLUGIN_PATHS = ['/Users/miaoyongchao/Desktop/miaoyc/pelican-plugins']
-
-PLUGINS = ['summary','sitemap','neighbors','tipue_search','tag_cloud', 'i18n_subsites, ''']
 DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'tags')
-
 ARCHIVES_SAVE_AS = './archives.html'
 
-PLUGINS = ['i18n_subsites']
+# plugin
+PLUGIN_PATHS = ['/Users/miaoyongchao/Desktop/miaoyc/pelican-plugins']
+PLUGINS = ['tag_cloud','i18n_subsites']
+
+#tags
+DISPLAY_TAGS_ON_SIDEBAR = True
+TAGS_URL = 'tags.html'
+tag_cloud = True
 
 #I18N_TEMPLATES_LANG = 'en'
 
 # Feed generation is usually not desired when developing
+TAG_FEED_ATOM = None
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
