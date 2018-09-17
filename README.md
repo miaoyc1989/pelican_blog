@@ -5,10 +5,8 @@
 
 3.pelican-quickstart （This step can be omitted）
 
-4.cd content
+4.pelican content
 
-5.pelican content
+5.python -m pelican.server
 
-6.python -m pelican.server
-
-7.http://localhost:8000/
+6.http://localhost:8000/
