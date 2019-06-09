@@ -1,12 +1,14 @@
 # pelican_blog
 1.pip install pelican
 
-2.cd project_folder
+2.pip install markdown
 
-3.pelican-quickstart （This step can be omitted）
+3.cd project_folder
 
-4.pelican content
+4.pelican-quickstart （This step can be omitted）
 
-5.python -m pelican.server
+5.pelican content
 
-6.http://localhost:8000/
+6.python -m pelican.server
+
+7.http://localhost:8000/
