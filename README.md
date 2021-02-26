@@ -12,3 +12,6 @@
 6.python -m pelican.server
 
 7.http://localhost:8000/
+
+#### example
+myc.ink 
