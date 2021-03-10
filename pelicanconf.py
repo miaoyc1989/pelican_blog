@@ -4,7 +4,6 @@ from __future__ import unicode_literals
 
 AUTHOR = u'miaoyc'
 SITENAME = u'miaoyc'
-SITEURL = ''
 COPY_DATE = '2012-2019'
 
 PATH = 'content'
