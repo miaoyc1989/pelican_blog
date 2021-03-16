@@ -14,4 +14,4 @@
 7.http://localhost:8000/
 
 # example
-myc.ink 
+https://myc.ink 
